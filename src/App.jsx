@@ -8,15 +8,19 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About';
 import Portofolio from './pages/Portofolio/Portofolio';
 import Contact from './pages/Contact/Contact';
+import Notfound from "./pages/NotFound/Notfound";
 
  function App() {
  const routes=createBrowserRouter([ 
+  
     {path: "/",element:<Layout/> , children:[  
-      {path: "/home",element:<Home/> },
-      {path: "/about",element:<About/> },
-      {path: "/portofolio",element:<Portofolio/> },
-      {path: "/contact",element:<Contact/> },] },
-
+      {index: true,element:<Home/> },
+      {path: "home",element:<Home/> },
+      {path: "about",element:<About/> },
+      {path: "portofolio",element:<Portofolio/> },
+      {path: "contact",element:<Contact/> },
+     {path: "*",element:<Notfound/> }] },
+     
     ],)
   
   

@@ -11,7 +11,10 @@ export default function NavBar() {
   return (
 <Navbar expand="lg" className={styles.navbar_wrapper}>
       <Container>
-        <NavLink to={'/home'} className={styles.navbar_brand}>Start Framework</NavLink>
+        <NavLink to="/home" className={({ isActive }) =>isActive ? `${styles.navbar_brand} no-active` : styles.navbar_brand }>
+  Start Framework
+</NavLink>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className={`ms-auto ${styles.navbar_brand}`}>
