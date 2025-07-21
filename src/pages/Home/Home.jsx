@@ -8,7 +8,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
-  <div className={styles.wrapper} style={{ backgroundColor: 'red' }}>
+  <div className={styles.wrapper} >
 
   <img className='w-25'  src={person1} alt='person1'/>
   <h1>Start Framework ✅</h1>
