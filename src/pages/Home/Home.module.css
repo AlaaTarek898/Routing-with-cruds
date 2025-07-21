@@ -3,7 +3,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: #1abc9c;
+  background-color: red; /* تعديل بسيط جداً */
+
 color: white;
 }
 .separator{
