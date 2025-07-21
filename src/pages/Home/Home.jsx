@@ -1,6 +1,6 @@
 import React from 'react'
 //style
-import styles from'./Home.module.css'
+import styles from'./Home_style.module.css'
 //assets
 import person1 from '../../assets/person.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
