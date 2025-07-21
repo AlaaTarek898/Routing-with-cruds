@@ -18,7 +18,11 @@ align-items: center;
 }
 
 
-/* .test-debug {
-  border: 5px solid red !important;
-  background-color: green !important;
-} */
+.wrapperhomenew {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #1abc9c !important;
+  color: white !important;
+}
