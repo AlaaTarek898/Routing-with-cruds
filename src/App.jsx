@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route, RouterProvider } from "react-router-dom";
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, createHashRouter } from "react-router";
 
 import './App.css'
 import Layout from './pages/Layout/Layout'
@@ -11,7 +11,7 @@ import Contact from './pages/Contact/Contact';
 import Notfound from "./pages/NotFound/Notfound";
 
  function App() {
- const routes=createBrowserRouter([ 
+ const routes=createHashRouter([ 
   
     {path: "/",element:<Layout/> , children:[  
       {index: true,element:<Home/> },
