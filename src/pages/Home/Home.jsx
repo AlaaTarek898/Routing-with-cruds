@@ -10,7 +10,8 @@ export default function Home() {
   return (
   <div className={styles.wrapper} >
   <img className='w-25'  src={person1} alt='person1'/>
-  <h1>start Framework</h1>
+  <h1>Start Framework ✅</h1>
+
   <div className='d-flex w-20 align-items-center justify-content-around mt-2 mb-2'>
     <div className={styles.separator}></div>
     <FontAwesomeIcon icon={faStar} />
