@@ -42,7 +42,7 @@ export default function Portofolio() {
   setName('')
   console.log(newcard.id)
   }
-//delet
+//delete
   function handleDelete(id){
 
   let res=cards.filter(card=>card.id!==id)
